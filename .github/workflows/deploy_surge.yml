@@ -44,5 +44,5 @@ jobs:
       
     #Deploy Surge
     - name: Deploy React App with Surge
-      run: run ./build class002-osaid.surge.sh --token ${{ secrets.SURGE_TOKEN}}
+      run: surge ./build class002-osaid.surge.sh --token ${{ secrets.SURGE_TOKEN}}
     
